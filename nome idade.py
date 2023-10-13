@@ -4,7 +4,7 @@ while True:
     data = int(input('Digite seu ano de nascimento: '))
     try:
         if data > 1922  and  data <= 2022:
-            idade = 2023 - data
+            idade = 2022 - data
             print(f'Nome: {nome.title()} - Idade: {idade}')
             break
         else:
